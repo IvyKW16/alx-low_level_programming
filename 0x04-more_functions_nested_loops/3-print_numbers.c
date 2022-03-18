@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * print-numbers - prints 0 - 9
+ *
+ * Return: void
+ */
+void print-numbers(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		_putchar('0' + i);
+	}
+	_putchar('\n');
+}
